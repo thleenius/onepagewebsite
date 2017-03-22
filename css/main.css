@@ -1,0 +1,132 @@
+/* Nav styles*/
+nav {
+background: #37123C;
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+text-align: center;
+min-height: 50px;
+z-index: 1;
+}
+/*only list items in nav selected with this space selector*/
+
+nav li {
+	display: inline-block;
+	padding: 0 40px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+nav ul {
+	padding:20px;
+}
+
+nav a {
+	color: #C6B4C1;
+	text-decoration: none;
+}
+
+section {
+	height: 90vh;
+	border: 1px solid black;
+	padding-top: 40px;
+}
+
+.myWork {
+	height: 200vh;
+}
+
+body {
+margin: 0;
+}
+
+.menu-icon {
+	display: none;
+	border: none;
+	background: transparent;
+	color: black;
+	font-size: 32px;
+	position: fixed;
+	top:0;
+	right: 0;
+}
+
+/*to style link color*/
+.current a {
+text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	nav li {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-size: 24px;
+}
+
+.title {
+	color: #A3B4C5;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-align: center;
+	color: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*
+.aboutTag {
+	text-align: center;
+	color: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}*/
+
+.homeSection {
+	padding: 20px;
+	background: black;
+	padding-top: 70px;
+}
+
+.aboutSection {
+	padding: 20px;
+	/*background: #dedede;*/
+}
+
+.aboutText {
+	line-height: 22px;
+}
+
+.kathleenPic {
+	width: 320px;
+	height: 448px;
+	border-radius: 2px;
+}
+
+.thumbnail {
+	border-radius: 3px;
+	padding-left: 100;
+}
+
+.img-responsive {
+	width: 100%;
+}
